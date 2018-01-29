@@ -24,7 +24,7 @@ let chirps = [
   }
 ];
 
-const dataPath = tater.join(__dirname, "../chirps.json");
+let dataPath = tater.join(__dirname, "../chirps.json");
 
 let sendChirps = JSON.stringify(chirps);
 
